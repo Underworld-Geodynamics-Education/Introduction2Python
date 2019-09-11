@@ -1,0 +1,16 @@
+.DS_Store
+_site
+.ipynb_checkpoints
+*.mp4
+
+CourseContent/Notebooks/ScatteredData+Triangulation/*.png
+CourseContent/Notebooks/Mapping/*.png
+CourseContent/Notebooks/Mapping/*.jpg
+CourseContent/Notebooks/SphericalMeshing/SphericalTriangulations/*.png
+CourseContent/Notebooks/SphericalMeshing/CartesianTriangulations/*.png
+CourseContent/Notebooks/SphericalMeshing/Litho1pt0/*.png
+CourseContent/Notebooks/Numpy+Scipy/*png
+
+# In case this one gets cloned by mistake
+
+OldCourseContent/Notebooks/Introduction2VersionControl/shared-sandbox
