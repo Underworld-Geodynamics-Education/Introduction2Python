@@ -1,4 +1,4 @@
-FROM lmoresi/uw_user_cloud:2019.09.12i_dev
+FROM lmoresi/uw_user_cloud:2019.09.12v_dev
 
 ## =============================================================
 ## base - image ... whatever functionality you want to provide !
