@@ -44,11 +44,12 @@ RUN pip3 install numpy scipy
 RUN pip3 install h5py
 RUN pip3 install obspy
 RUN pip3 install cartopy
-RUN pip3 install stripy litho1pt0 --upgrade
+RUN pip3 install stripy git+https://github.com/underworldcode/stripy.git@dev
+RUN pip3 install litho1pt0 --upgrade
 RUN pip3 install lavavu --upgrade
 RUN pip3 install imageio
 RUN pip3 install cloudstor
-
+RUN pip3 install pillow
 
 USER jovyan
 WORKDIR  /home/jovyan
