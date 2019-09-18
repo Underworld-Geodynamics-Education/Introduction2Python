@@ -44,6 +44,7 @@ RUN pip3 install numpy scipy
 RUN pip3 install h5py
 RUN pip3 install obspy
 RUN pip3 install cartopy
+RUN pip3 uninstall stripy -y
 RUN pip3 install stripy git+https://github.com/underworldcode/stripy.git@dev
 RUN pip3 install litho1pt0 --upgrade
 RUN pip3 install lavavu --upgrade
