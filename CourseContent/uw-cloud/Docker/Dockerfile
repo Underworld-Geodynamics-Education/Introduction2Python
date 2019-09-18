@@ -48,6 +48,9 @@ RUN pip3 install stripy git+https://github.com/underworldcode/stripy.git@dev
 RUN pip3 install litho1pt0 --upgrade
 RUN pip3 install lavavu --upgrade
 RUN pip3 install imageio
+RUN pip3 uninstall webdav -y
+# RUN rm -rf /usr/local/lib/python3.5/site-packages/webdav
+RUN pip3 install git+https://github.com/lmoresi/webdav.git --no-cache-dir
 RUN pip3 install cloudstor
 RUN pip3 install pillow
 
